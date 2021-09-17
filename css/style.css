@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0 25px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #dcdcdc;
+}
+
+a {
+  text-decoration: none;
+}
+
+.h1 {
+  margin: 25px 0 25px 0;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.h2 {
+  position: relative;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 100px;
+  height: 10px;
+  border-radius: 3px;
+  background-color: #dcdcdc;
+}
+
+.h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.muted {
+  color: #a7a5a5;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 100px 50px;
+  background-color: #fff;
+  color: #333;
+}
+
+.side {
+  width: 35%;
+}
+
+.side__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.side__job_title {
+  margin-bottom: 80px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.side__contacts {
+  margin-bottom: 50px;
+}
+
+.side__contact_item {
+  padding-bottom: 5px;
+}
+
+.side__lang {
+  padding-top: 10px;
+}
+
+.main {
+  width: 65%;
+  padding-left: 50px;
+}
+
+.main__period {
+  padding: 5px 0 10px 0;
+  color: #a7a5a5;
+}
+
+.main__job {
+  margin-bottom: 50px;
+}
+
+.main__desc {
+  padding-bottom: 5px;
+}
+
+.main__skills {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main__edu {
+  padding: 25px 0 35px 0;
+}
+
+.main__sertificate {
+  padding-bottom: 5px;
+}
+
+.avatar_img__container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("../img/maksim.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.avatar_img {
+  height: 100%;
+  width: 100%;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.react-color {
+  color: #4398af;
+}
